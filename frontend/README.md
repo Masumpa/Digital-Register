@@ -1,10 +1,10 @@
-# 🌱 Digital Farm Register - Frontend
+# Digital Farm Register - Frontend
 
 A modern Flutter application for smallholder farmers to digitally manage their farms, crops, livestock, and labor.
 
-## 📱 Features
+## Features
 
-### ✅ **Implemented (Current MVP)**
+### Implemented (Current MVP)
 - **User Authentication**
   - Secure login with validation
   - User registration flow
@@ -27,12 +27,11 @@ A modern Flutter application for smallholder farmers to digitally manage their f
   - Reusable widget components
   - Form validation and error handling
 
-### 🔄 **Coming Soon**
+### Coming Soon
 - Livestock management (health, vaccinations, breeding)
 - Labor management (attendance, tasks, wages)
 - Offline support with data synchronization
 - Advanced reports and analytics
 - Multi-language support (English, Swahili)
 
-## 🏗️ Project Structure
-
+## Project Structure

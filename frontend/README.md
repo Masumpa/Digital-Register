@@ -35,3 +35,80 @@ A modern Flutter application for smallholder farmers to digitally manage their f
 - Multi-language support (English, Swahili)
 
 ## Project Structure
+frontend/
+│
+├── pubspec.yaml
+├── pubspec.lock
+├── analysis_options.yaml
+├── README.md
+├── .gitignore
+│
+├── android/
+│   ├── app/
+│   │   ├── src/main/
+│   │   │   ├── AndroidManifest.xml
+│   │   │   └── res/
+│   │   └── build.gradle
+│   └── build.gradle
+│
+├── ios/
+│   ├── Runner/
+│   │   ├── Assets.xcassets/
+│   │   ├── Info.plist
+│   │   └── Runner-Bridging-Header.h
+│   └── Podfile
+│
+├── web/
+│   ├── index.html
+│   ├── favicon.png
+│   └── icons/
+│
+└── lib/
+    │
+    ├── main.dart
+    ├── app.dart
+    │
+    ├── config/
+    │   └── constants.dart
+    │
+    ├── models/
+    │   ├── user.dart
+    │   ├── farm.dart
+    │   ├── crop.dart
+    │   ├── crop_input.dart
+    │   └── harvest.dart
+    │
+    ├── services/
+    │   └── api_service.dart
+    │
+    ├── providers/
+    │   └── auth_provider.dart
+    │
+    ├── screens/
+    │   ├── auth/
+    │   │   ├── login_screen.dart
+    │   │   └── register_screen.dart
+    │   │
+    │   ├── farms/
+    │   │   ├── farms_list_screen.dart
+    │   │   ├── farm_detail_screen.dart
+    │   │   └── add_edit_farm_screen.dart
+    │   │
+    │   └── crops/
+    │       ├── crops_list_screen.dart
+    │       ├── crop_detail_screen.dart
+    │       ├── add_edit_crop_screen.dart
+    │       ├── crop_inputs_screen.dart
+    │       ├── add_crop_input_screen.dart
+    │       ├── harvests_screen.dart
+    │       ├── add_harvest_screen.dart
+    │       └── crop_report_screen.dart
+    │
+    ├── widgets/
+    │   ├── custom_app_bar.dart
+    │   ├── loading_indicator.dart
+    │   ├── error_widget.dart
+    │   └── custom_text_field.dart
+    │
+    └── utils/
+        └── validators.dart

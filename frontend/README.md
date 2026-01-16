@@ -35,6 +35,7 @@ A modern Flutter application for smallholder farmers to digitally manage their f
 - Multi-language support (English, Swahili)
 
 ## Project Structure
+```text
 frontend/
 │
 ├── pubspec.yaml
@@ -112,3 +113,5 @@ frontend/
     │
     └── utils/
         └── validators.dart
+```
+

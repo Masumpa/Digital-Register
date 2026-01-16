@@ -34,7 +34,7 @@ A modern Flutter application for smallholder farmers to digitally manage their f
 - Advanced reports and analytics
 - Multi-language support (English, Swahili)
 
-## Project Structure
+## Fontend Project Structure
 ```text
 frontend/
 │
